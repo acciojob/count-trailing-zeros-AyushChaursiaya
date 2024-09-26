@@ -20,7 +20,7 @@ function trailingZeros(n) {
 // Get input via prompt and show result via alert
 const input = parseInt(prompt("Enter a non-negative integer:"), 10);
 if (!isNaN(input) && input >= 0) {
-    alert(`The number of trailing zeros : ${trailingZeros(input)}`);
+    alert(`The number of trailing zeros in ${input}! is: ${trailingZeros(input)}`);
 } else {
     alert("Please enter a valid non-negative integer.");
 }
